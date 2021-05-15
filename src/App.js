@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import InterFace from './Componentes/Interface'
+
 
 function App() {
   return (
@@ -18,6 +20,9 @@ function App() {
           Learn React
         </a>
       </header>
+      
+      <InterFace></InterFace>
+
     </div>
   );
 }
